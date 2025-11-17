@@ -5,8 +5,8 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
   const navItems = [
     { name: 'Features', href: '#features' },
+    { name: 'Dashboard', href: '/dashboard' },
     { name: 'Docs', href: '/STANDALONE_AI_CALLING_SERVICE.md' },
-    { name: 'Contact', href: '#contact' },
   ]
 
   return (
